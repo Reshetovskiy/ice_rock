@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendor/nouislider/distribute/nouislider.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:200,300i,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" inline>
+</head>
+<body>
+ 
+<section class="section-power"> 
+    <aside class="sidebar">
+        <a class="sidebar-brand">
+                <svg class="icon-svg icon-svg-logo sidebar-brand__logo"><use xlink:href="img/sprite.svg#logo"></use></svg>
+                <svg class="icon-svg icon-svg-name sidebar-brand__name"><use xlink:href="img/sprite.svg#name"></use></svg>
+        </a>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#" class="navigation__link">Диспетчерская</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Купить мощность</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Партнерская программа</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">История</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Настройка</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Поддержка</a></li>
+            </ul>
+        </nav>
+        <nav class="navigation-social">
+            <ul class="navigation-social__list">
+                <li class="navigation-social__item"><a href="#" class="navigation-social__link"> <svg class="icon-svg icon-svg-facebook_icon navigation-social__icon"><use xlink:href="img/sprite.svg#facebook_icon"></use></svg></a></li>
+                <li class="navigation-social__item"><a href="#" class="navigation-social__link"> <svg class="icon-svg icon-svg-twitter_icon navigation-social__icon"><use xlink:href="img/sprite.svg#twitter_icon"></use></svg></a></li>
+                <li class="navigation-social__item"><a href="#" class="navigation-social__link"> <svg class="icon-svg icon-svg-instagram_icon navigation-social__icon"><use xlink:href="img/sprite.svg#instagram_icon"></use></svg></a></li>
+                <li class="navigation-social__item"><a href="#" class="navigation-social__link"> <svg class="icon-svg icon-svg-telegram_icon navigation-social__icon"><use xlink:href="img/sprite.svg#telegram_icon"></use></svg></a></li>
+                <li class="navigation-social__item"><a href="#" class="navigation-social__link"> <svg class="icon-svg icon-svg-language navigation-social__icon"><use xlink:href="img/sprite.svg#language"></use></svg></a></li>
+            </ul>
+        </nav>
+    </aside>
+    <div class="power-page">
+        <header class="header">
+            <h1 class="header__title"> Купить мощность</h1>
+            <nav class="header__navigation">
+                <input type="text" class="header__mail" placeholder="berkindulat@gmail.com"> 
+                <a href="" class="header__exit">выход</a>
+            </nav>
+        </header>
+        <div class="antminer">
+            <h2 class="antminer__title"> antminer</h2>
+            <div class="antminer-body">
+                <div class="antminer-body__price">
+                    <span class="antminer-body__selling"> ДОСТУПНО RockHash к продаже <svg class="icon-svg icon-svg-information antminer-body__information"><use xlink:href="img/sprite.svg#information"></use></svg> </span> 
+                    <span class="antminer-body__number"> 14329053 (RH) </span>
+                </div>
+                <div class="antminer-body__currency">
+                    <span class="antminer-body__circle"></span> 
+                    1 RH = 1 Gh/s 
+                    <svg class="icon-svg icon-svg-information antminer-body__information antminer-body__information--currency"><use xlink:href="img/sprite.svg#information"></use></svg>
+                </div>
+                <div class="filter-item filter--toggle">
+                    <div class="filter-price">
+                        <div class="filter-price__form">
+                            <div class="filter-price__container">
+                                <label for="form-decline" class="filter-price__title">мощность</label>
+                                <div class="filter-price__wrapper">
+                                    <input type="text" data-min="0" class="filter-price__input" id="form-decline">
+                                    <span class="filter-price__currency"> RH</span>
+                                </div>
+                                <span class="filter-price__hint">500 Gh/s </span>
+                            </div>
+                        </div>
+                        <svg class="icon-svg icon-svg-equality filter-price__icon"><use xlink:href="img/sprite.svg#equality"></use></svg>
+                        <div class="filter-price__form">
+                            <label for="form-growth" class="filter-price__title">Стоимость</label>
+                            <div class="filter-price__wrapper">
+                                <input type="text" data-max="1000" class="filter-price__input" id="form-growth">
+                                <span class="filter-price__currency"> $</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="filter-price"></div>
+                    <a href="#" class="btn-continue">Продолжить </a>
+                </div>
+            </div>
+            <footer class="footer">
+                <h2 class="footer__title"> мы принимаем к оплате</h2>
+                <nav class="cryptography-menu">
+                    <ul class="cryptography-menu__list">
+                        <li class="cryptography-menu__item"><a href="#" class="cryptography-menu__link"><figure class="cryptography-menu__wrapper"><img src="./img/bitcoin.png" alt="" class="cryptography-menu__img"></figure></li>
+                        <li class="cryptography-menu__item"><a href="#" class="cryptography-menu__link"><figure class="cryptography-menu__wrapper"><img src="./img/ethereum.png" alt="" class="cryptography-menu__img"></figure></li>
+                        <li class="cryptography-menu__item"><a href="#" class="cryptography-menu__link"><figure class="cryptography-menu__wrapper"><img src="./img/litecoin.png" alt="" class="cryptography-menu__img"></figure></li>
+                        <li class="cryptography-menu__item"><a href="#" class="cryptography-menu__link"><figure class="cryptography-menu__wrapper"><img src="./img/bitcoin-cash.png" alt="" class="cryptography-menu__img"></figure></li>
+                        <li class="cryptography-menu__item"><a href="#" class="cryptography-menu__link"><figure class="cryptography-menu__wrapper"><img src="./img/t-coin.png" alt="" class="cryptography-menu__img"></figure></a></li>
+
+                    </ul>
+                </nav>
+               
+            </footer>
+        </div>
+        <small class="power-page__charter"> © 2019 Ice Rock mining</small>
+    </div>
+</section>
+
+
+<footer>
+
+    
+
+</footer>
+
+<!-- Scripts application -->
+
+<script src="vendor/nouislider/distribute/nouislider.min.js"></script>
+
+<script src="js/script.js" inline></script>
+
+</body>
+
+</html>

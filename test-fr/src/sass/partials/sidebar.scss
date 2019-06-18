@@ -1,0 +1,92 @@
+.sidebar {
+    background-color: #2b343b;
+    display: flex;
+    flex-direction: column;
+    min-width: 420px;
+}
+
+.sidebar-brand {
+    background-color: #1e252b;
+    color: #fff;
+    padding: 17px 0 32px 165px;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    &__logo {
+        width: 55px;
+        height: 41px;
+    }
+    &__name {
+        margin-left: 10px;
+        width: 122px;
+        height: 17px;
+    }
+    &:hover {
+        .sidebar-brand__logo {
+            fill: #ef495f;
+            transition-duration: .5s;
+        }
+        .sidebar-brand__name {
+            fill: #ef495f;
+            transition-duration: .5s;
+        }   
+    }
+
+}
+
+.navigation {
+    padding-left: 140px;
+    &__list {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+    &__link {
+        max-width: 277px;
+        padding: 25px 0 25px 54px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        &:after {
+            content: '';
+            position: absolute;
+            display: block;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background: #ef495f;
+            transition-duration: .5s;
+        }
+        &:hover {
+            color: #ef495f;
+            background-color: #283137;
+            &:after {
+                width: 6px;
+            }
+        }
+    }
+}
+
+.navigation-social {
+    margin-top: 435px;
+    padding-left: 155px;
+    &__list {
+        display: flex;
+    }
+    &__item {
+        padding: 10px;
+    }
+    &__icon {
+        fill: #fff;
+        width: 24px;
+        height: 24px;
+        transition-duration: .5s;
+        &:hover {
+            fill: #ef495f;
+        }
+    }
+}
